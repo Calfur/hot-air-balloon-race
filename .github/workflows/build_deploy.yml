@@ -2,7 +2,7 @@ name: Build website and deploy with Docker
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
   workflow_dispatch:
 
 jobs:
