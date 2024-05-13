@@ -1,6 +1,6 @@
 services:
   balloon-race-website:
-    image: ghcr.io/calfur/hot-air-balloon-race:latest
+    image: ghcr.io/calfur/balloon-race:latest
     container_name: balloon-race_web
     networks:
       - webnet
